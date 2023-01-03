@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering userName]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Username and password correct.Successful login]]>
+    </line>
+    <line>
+      <![CDATA[Entered Amount tobe transfered]]>
+    </line>
+    <line>
+      <![CDATA[Getting success message]]>
+    </line>
+    <line>
+      <![CDATA[Logged out successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-03T17:32:55 IST" name="Default suite" finished-at="2023-01-03T17:33:21 IST" duration-ms="25585">
+    <groups>
+    </groups>
+    <test started-at="2023-01-03T17:32:55 IST" name="Default test" finished-at="2023-01-03T17:33:21 IST" duration-ms="25585">
+      <class name="testFireTestClass.AltoroTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testFireTestClass.AltoroTest@942a29c]" started-at="2023-01-03T17:32:55 IST" name="openBrowser" finished-at="2023-01-03T17:33:06 IST" duration-ms="10880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="signInToAltoroMutual()[pri:0, instance:testFireTestClass.AltoroTest@942a29c]" started-at="2023-01-03T17:33:06 IST" name="signInToAltoroMutual" finished-at="2023-01-03T17:33:12 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering userName]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Username and password correct.Successful login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInToAltoroMutual -->
+        <test-method signature="validateBalance()[pri:0, instance:testFireTestClass.AltoroTest@942a29c]" started-at="2023-01-03T17:33:12 IST" name="validateBalance" finished-at="2023-01-03T17:33:12 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBalance -->
+        <test-method is-config="true" signature="transferOfFunds()[pri:0, instance:testFireTestClass.AltoroTest@942a29c]" started-at="2023-01-03T17:33:12 IST" name="transferOfFunds" finished-at="2023-01-03T17:33:16 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Amount tobe transfered]]>
+            </line>
+            <line>
+              <![CDATA[Getting success message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- transferOfFunds -->
+        <test-method is-config="true" signature="signingOff()[pri:0, instance:testFireTestClass.AltoroTest@942a29c]" started-at="2023-01-03T17:33:16 IST" name="signingOff" finished-at="2023-01-03T17:33:21 IST" duration-ms="5173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signingOff -->
+      </class> <!-- testFireTestClass.AltoroTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
